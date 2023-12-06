@@ -1,3 +1,3 @@
 # Multiplication Table
 
-[Visit page](https://ednanf.github.io/JS-multiplication-table/)
+[Visit page](https://ednanf.github.io/JS-Multiplication-Table/)
