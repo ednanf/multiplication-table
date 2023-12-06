@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiplication Table JS</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/scripts.js" defer></script>
+</head>
+<body>
+  <h1>Multiplication Table</h1>
+  <br>
+  <h2>Type a number to generate a multiplication table:</h2>
+  <form id="multiplication-form">
+    <div class="form-control">
+      <label for="number">Multiply this:</label>
+      <input type="number" name="number" id="number" placeholder="3">
+    </div>
+    <div class="form-control">
+      <label for="multiplicator">For:</label>
+      <input type="number" name="multiplicator" id="multiplicator" value="10">
+    </div>
+    <button type="submit" id="submit-btn">Calculate</button>
+  </form>
+  <div id="multiplication-table">
+    <h2 id="multiplication-title">Multiplication table from number: <span>n/a</span></h2>
+    <div id="multiplication-operations">
+      <p>Type a number to create a new multiplication table...</p>
+    </div>
+  </div>
+</body>
+</html>
